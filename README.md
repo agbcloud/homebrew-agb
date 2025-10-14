@@ -4,7 +4,7 @@
 
 ## 快速安装
 
-### 方法一：通过 Tap 安装（推荐）
+### 通过 Tap 安装（推荐）
 
 ```bash
 # 1. 添加 AGB Cloud 的 Homebrew tap
@@ -56,8 +56,8 @@ brew untap agbcloud/agb
 
 ## 项目信息
 
-- **项目主页**: https://github.com/litiantian123-code/agbcloud-cli
-- **当前版本**: v1.1.7
+- **项目主页**: https://github.com/agbcloud/agbcloud-cli
+- **当前版本**: v0.1.0
 - **许可证**: MIT
 - **描述**: Secure infrastructure for running AI-generated code
 
@@ -136,5 +136,5 @@ brew uninstall agb
 ## 相关链接
 
 - [Homebrew 官网](https://brew.sh/)
-- [AGB CLI 项目](https://github.com/litiantian123-code/agbcloud-cli)
+- [AGB CLI 项目](https://github.com/agbcloud/agbcloud-cli)
 - [Homebrew Tap 文档](https://docs.brew.sh/Taps)
