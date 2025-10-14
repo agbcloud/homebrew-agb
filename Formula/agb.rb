@@ -1,10 +1,10 @@
 class Agb < Formula
   desc "Secure infrastructure for running AI-generated code"
-  homepage "https://github.com/litiantian123-code/agbcloud-cli"
-  url "https://github.com/litiantian123-code/agbcloud-cli/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "3b4f88c6af4b0571a9b8d22db2db610a8396365f81dd367ddeb730cdd6015c06"
+  homepage "https://github.com/agbcloud/agbcloud-cli"
+  url "https://github.com/agbcloud/agbcloud-cli/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "05bf8e62463c840f285bbb17b584ce3e55f2f8b07841ee280624444db5443229"
   license "MIT"
-  head "https://github.com/litiantian123-code/agbcloud-cli.git", branch: "main"
+  head "https://github.com/agbcloud/agbcloud-cli.git", branch: "main"
 
   depends_on "go" => :build
 
@@ -12,7 +12,7 @@ class Agb < Formula
     # Set build variables matching the Makefile
     version = self.version
     # Use embedded git commit from build time (since tarball has no .git directory)
-    git_commit = "4ada533"
+    git_commit = "fcf862c"
     build_date = Time.now.utc.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Set Go proxy for better network connectivity (especially in China)
